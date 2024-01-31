@@ -7,7 +7,6 @@ function fizzBuzz(num) {
 
     return num % 3 === 0 && num % 5 === 0 ? "fizzbuzz" : (num % 3 === 0 ? "fizz" : (num % 5 === 0 ? "buzz" : false));
   
- 
   //   if (num % 3 === 0 && num % 5 === 0) {
   //     return "fizzbuzz";
   //   } else if (num % 3 === 0) {
@@ -18,5 +17,6 @@ function fizzBuzz(num) {
   //     return false;
   //   }
 }
+
 
 module.exports = fizzBuzz;
